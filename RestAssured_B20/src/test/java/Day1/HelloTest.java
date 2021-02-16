@@ -26,18 +26,18 @@ public class HelloTest {
 
     @BeforeEach
     public void setUpTest(){
-        System.out.println("@Before each is running");
+        System.out.println("@Before each is runnning");
     }
 
 
     @AfterEach
     public void tearDownTest(){
-        System.out.println("@AfterEach is running");
+        System.out.println("@AfterEach is runnning");
     }
 
 
 
-    @DisplayName("Test 1 + 3 = 4")  // this is eample only
+    @DisplayName("Test 1 + 3 = 4")  // this is sample only
     @Test
     public void test(){
         System.out.println("test 1 is running");
